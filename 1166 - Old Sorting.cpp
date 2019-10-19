@@ -21,7 +21,6 @@ int main(){
     S(t);
     while(t--){
         ll ar[111],s=0;
-        memset(ar,0,sizeof(ar));
         S(n);
         for(i=1;i<=n;i++) S(ar[i]);
         for(i=1;i<=n;i++){
