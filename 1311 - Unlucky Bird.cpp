@@ -27,8 +27,8 @@ int main(){
         double t1=v1/a1;  // t=v/a
         double t2=v2/a2;
         double tmax=max(t1,t2);
-        double bird_distance=tmax*v3;
-        double s1=v1*t1-.5*t1*t1*a1;  // s=ut-.5at2
+        double bird_distance=tmax*v3;  // s=vt
+        double s1=v1*t1-.5*t1*t1*a1;  // s=ut-0.5at2
         double s2=v2*t2-.5*t2*t2*a2;
         printf("Case %lld: %.6f %.6f\n",++c,s1+s2,bird_distance);
     }
